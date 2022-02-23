@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.students{
+  background-color: #27496D;
+  padding: 20px;
+  margin: 20px 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+

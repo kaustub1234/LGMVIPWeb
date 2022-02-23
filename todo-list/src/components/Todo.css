@@ -1,0 +1,21 @@
+.complete{
+    background-color: rgb(95, 255, 47);
+    font-size: 40px;
+    display: flex;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.task-div{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color:#39A2DB;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    min-width: 30%;
+}
+
+
+

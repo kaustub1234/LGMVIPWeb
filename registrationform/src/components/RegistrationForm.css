@@ -1,0 +1,50 @@
+label{
+    font-size:20px;
+    margin: 5px;
+}
+
+input:focus{
+    outline: none;
+    background-color: lightblue
+}
+
+input{
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    margin: 5px;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color:#00A8CC;
+    color: black;
+}
+
+.Gender {
+    align-self: start;
+}
+
+button{
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: #0C7B93;
+    padding: 5px 10px;
+}
+
+.btn{
+    align-self: end;
+}
+
+
+

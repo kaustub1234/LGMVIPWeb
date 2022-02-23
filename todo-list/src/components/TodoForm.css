@@ -1,0 +1,13 @@
+.AddGoal input[type="text"]{
+    font-size: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+button{
+    padding: 5px 10px;
+    font-size: 30px;
+    color: white;
+    background-color: #053742;
+    border-radius: 5px;
+}
