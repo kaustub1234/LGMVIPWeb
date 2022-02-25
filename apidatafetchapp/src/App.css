@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+button{
+  padding: 5px 10px;
+  border: none;
+  cursor:pointer;
+  background-color: #E0DDAA;
+  border-radius:20px;
+  margin-top: 10px;
+  font-size: larger;
+}
+
+.user_data{
+  background-color: #EEEDDE;
+  border-radius: 15px;
+  margin: 20px;
+  width: fit-content;
+  padding: 10px;
+}
+
+.user_list{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  background-color: #203239;
+  border: solid 2px white;
+  color: black;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+img{
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+h3{
+  display: block;
+  background-color: #E0DDAA;
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+
+
