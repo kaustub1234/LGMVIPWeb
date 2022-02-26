@@ -6,6 +6,7 @@ const RegistrationForm = (props) => {
   const [email, setEmail] = useState('');
   const [website, setWebsite] = useState('');
   const [gender, setGender] = useState('');
+  const [skills, setSkills] = useState('');
 
   const submitHandler = (event) => {
     event.preventDefault();
@@ -14,6 +15,7 @@ const RegistrationForm = (props) => {
       email: email,
       website: website,
       gender: gender,
+      skills: skills,
       id:Math.random()
     }
     props.onaddDetails(d);
@@ -21,6 +23,7 @@ const RegistrationForm = (props) => {
     setName('');
     setWebsite('');
     setGender('');
+    setSkills('');
   }
 
   //resetHandler
@@ -29,6 +32,7 @@ const RegistrationForm = (props) => {
     setName('');
     setWebsite('');
     setGender('');
+    setSkills('');
   }
 
   //DetailsHandlers
@@ -44,6 +48,9 @@ const RegistrationForm = (props) => {
   const GenderHandler = (event) => {
     setGender(event.target.value);
   }
+  const skillsHandler = (event) => {
+    setSkills(event.target.value);
+  }
 
 
   return (
@@ -55,7 +62,9 @@ const RegistrationForm = (props) => {
           <label htmlFor="email">Email-id</label>
           <input id="email" value={email} onChange={emailHandler} type="email" placeholder="Email-id.." required />
           <label htmlFor="website">Website</label>
-          <input id="website" value={website} onChange={websiteHandler} type="url" placeholder="Website link.." required />
+          <input id="website" value={website} onChange={websiteHandler} type="url" placeholder="Website link.." required /><br/>
+          <label htmlFor="website">Skills</label>
+          <input id="website" value={skills} onChange={skillsHandler} type="text" placeholder="Skills.." required />
         </div>
         <div className="Gender">
           <h3>Gender</h3>
